@@ -17,3 +17,4 @@ const tourschema = new mongoose.Schema({
 const Tour = mongoose.model('tour',tourschema)
 
 module.exports = Tour
+//ieufgrwi
