@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const Tour = require('./data')
 const fs = require('fs')
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 const cors = require('cors')
 app.use(cors())
 app.get('/',(req,res)=>{
